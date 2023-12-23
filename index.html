@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
     <meta content="The French Expert Website" name="description" />
     <meta content="The French Expert Website, Inusah Books" name="keywords" />
     <link href="images/favicon.png" rel="icon" />
@@ -103,14 +104,61 @@
             </div>
           </div>
         </section>
-        <section id="gallery" class="gallery">
+        <section id="gallery" class="portfolio">
           <div class="container">
             <div class="section-title">
               <h2>Gallery</h2>
               <p>Books Gallery</p>
             </div>
             <div class="row">
-              
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                  <li data-filter="*" class="filter-active">All</li>
+                  <li data-filter=".filter-app">E-Books</li>
+                  <li data-filter=".filter-card">Videos</li>
+                  <!-- <li data-filter=".filter-web">Web</li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="row portfolio-container">
+    
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="images/IMG-20231221-WA0009.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 1</h4>
+                    <p>App</p>
+                    <div class="portfolio-links">
+                      <a href="images/IMG-20231221-WA0009.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                  <img src="images/IMG-20231221-WA0013.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Web 3</h4>
+                    <p>Web</p>
+                    <div class="portfolio-links">
+                      <a href="images/IMG-20231221-WA0013.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="images/IMG-20231221-WA0014.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 2</h4>
+                    <p>App</p>
+                    <div class="portfolio-links">
+                      <a href="images/IMG-20231221-WA0014.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -131,7 +179,7 @@
                   <div class="email">
                     <i class="bi bi-envelope"></i>
                     <h4>Email:</h4>
-                    <p><a href="mailto:frenchspecialistsgroup.gmail.com" target="_blank">frenchspecialistsgroup.gmail.com</a></p>
+                    <p><a href="mailto:frenchspecialistsgroup@gmail.com" target="_blank">frenchspecialistsgroup@gmail.com</a></p>
                   </div>
                   <div class="phone">
                     <i class="bi bi-phone"></i>
@@ -189,5 +237,7 @@
       </footer>
       <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <script src="js/main.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
   </body>
 </html>
