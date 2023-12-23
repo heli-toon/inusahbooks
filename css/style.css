@@ -6,8 +6,8 @@
   scroll-behavior: smooth;
 }
 ::selection {
-  background: var(--blue);
-  color: var(--yellow);
+  background: var(--sec);
+  color: var(--text-w);
 }
 *:before,
 *:after {
